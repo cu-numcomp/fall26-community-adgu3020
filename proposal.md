@@ -1,30 +1,29 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *SciPy*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+*SciPy is an open source Python library that helps people solve math and science problems using computers. It has tools for things like optimization, rootfinding, integration, interpolation, linear algebra, statistics, and other numerical methods. It is mainly used by students, researchers, engineers, and programmers who need these kinds of calculations without having to build every method from scratch. I chose SciPy because it connects to a lot of the topics we have worked on in class, and it is also a Python library that I could actually see myself using in other projects.*
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2025-11-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Does the project have an AI contribution policy? | link |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL | https://github.com/scipy/scipy |
+| Main/documentation website | https://scipy.org |
+| Year project was started | The Github repository was created in 2011, but the project started in 2001 |
+| Number of contributors in the past year | 252 |
+| Number of contributors in the lifetime of the project | 2067 |
+| Number of distinct affiliations | >10 |
+| Where do development discussions take place? | There is a Scientific Python forum. They also discuss using Github issues and pull requests  |
+| Typical number of emails/comments per week? | Around 250 |
+| Typical number of commits per week? | 32 |
+| Typical commit size | Around 2 files with 36 lines |
+| How does the project accept contributions? | Mainly through GitHub pull requests and code review  |
+| Does the project have an automated test suite? | Yes |
+| Does the project use continuous integration? | Yes |
+| Does the project have an AI contribution policy? | https://scipy.github.io/devdocs/dev/conduct/ai_policy.html |
+| Are any legal/licensing steps required to contribute? | Contributions are licensed under SciPy's BSD 3-Clause license. I did not find a separate CLA requirement. |
 
 ### Install and run
 
@@ -38,12 +37,7 @@ encountered a problem.
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+SciPy is a very large project, so trying to understand the entire codebase would be unrealistic for this assignment. I plan to focus on one smaller part of the library, such as rootfinding or optimization, and look at how accuracy, speed, and numerical stability affect the algorithms. Running the entire SciPy test suite may also take a long time, so I may focus on tests for the part of the library I study.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
